@@ -1,4 +1,3 @@
-//const API_KEY = `X94piR1qJlHsemzEXygSp9Lm4f9SLTS2B7o8vQEpAtPjiER%2B%2BJ9DlnMNEw2K72CDSyve3P8NOlPQgmwTUp3vlQ%3D%3D`;
 const travelAPI_KEY = config.apikey;
 const weatherAPI_KEY = config2.apikey;
 
@@ -40,8 +39,7 @@ getRestaurantDate();
 
 
 
-//const weatherAPI_KEY = `9536d22b2686e8fd7fe6505b7df9f1e2`;
-
+// 날씨 데이터 가져오기
 async function getWeather (){
   const url = `https://api.openweathermap.org/data/2.5/weather?lat=37.4562557&lon=126.7052062&appid=${weatherAPI_KEY}&lang=kr`;
   //const url = `https://api.openweathermap.org/data/2.5/weather?q=seoul&appid=${weatherAPI_KEY}`
